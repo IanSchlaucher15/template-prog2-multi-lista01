@@ -8,6 +8,16 @@
 // Faça um programa em C que dadon, calcule o número de Fibonacci den.
 int
 exercicio7(int n)
-{
-  return 10;
+{ int i, n, t1 = 0, t2 = 1, next;
+	printf("n= ");
+  scanf("%i", &n);
+  
+  for(i = 1; i <= n; i++){             
+    next = t1 + t2;
+    t1 = t2;
+    t2 = next;
+      
+    }
+ 
+  return 0;
 }
