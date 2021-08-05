@@ -9,5 +9,17 @@
 int
 exercicio7(int n)
 {
-  return 10;
-}
+  int x, y, i, j;
+  x = 0;
+  y = 1;
+
+  if (n == 0 || n == 1)
+	  return n;
+
+  for(j = 2; j <= n, j++){
+	  i = x + y;
+	  x = y;
+	  y = j;
+	  }
+  return j;
+  }
